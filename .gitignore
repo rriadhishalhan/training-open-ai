@@ -1,0 +1,33 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+secrets/
+config/secrets/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploaded files (may contain sensitive content)
+uploads/
+processed_uploads/
+
+# Logs that may contain sensitive data
+*.log
+logs/
